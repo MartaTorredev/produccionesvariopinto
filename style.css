@@ -9,13 +9,14 @@ Version: 1.0
 */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
-
 /* Texto Banner*/
 .ban-text{
     text-align: left;
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
-    max-width: 1117px!important;
+	max-width:100%!important;
+	padding-left:131px;
+	padding-right:131px;
     margin:auto;
 }
 /* SECCIÓN EL REFUGIO*/
@@ -94,7 +95,12 @@ input[type=submit], button[type=submit], input[type="button"] {
     -webkit-border-radius: 2px;
 }
 
-
-
-
-
+/*AVISO COOKIES*/
+.cn-button.bootstrap{
+	background-color:white;
+	color: black;
+	background-image:none;
+	font-family:'Montserrat';
+	border-radius:0}
+#cn-notice-text{font-weight:300}
+.cookie-notice-container{padding:25px}
